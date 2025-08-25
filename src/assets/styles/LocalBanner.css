@@ -1,6 +1,7 @@
 .local-banner .contact-info {
     display: flex;
     flex-wrap: wrap;
+    color: var(--color-lgh);
     background-color: var(--color-dom);
     position: relative;
     z-index: 5;
@@ -33,15 +34,14 @@
 
 .local-banner .contact-link__text {
     text-decoration: none;
+    color: var(--color-lgh);
 }
 
 .local-banner .contact-link__name {
-    color: var(--color-lgh);
     font-size: 0.9rem;
 }
 
 .local-banner .contact-link__ref {
-    color: #ddd;
     font-size: 0.7rem;
 }
 

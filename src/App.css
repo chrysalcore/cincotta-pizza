@@ -46,13 +46,19 @@
 
 .cta {
     padding: 0.7rem 3rem;
-    color: var(--color-lgh);
+    color: #fff;
     font-size: 0.8rem;
     font-weight: 600;
     text-transform: uppercase;
     background-color: var(--color-com);
     border-radius: 0.5rem;
     border: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.cta:hover {
+    transform: translateY(-5px);
 }
 
 @media screen and (min-width: 1024px) {

@@ -1,0 +1,54 @@
+.reservation {
+    flex: 1 0 min(18rem, 100%);
+}
+
+.reservation .form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 3rem 1rem;
+    background-color: #e5e5e5;
+    border-radius: 0.5rem;
+}
+
+.reservation .form-field {
+    flex: 1 0 min(100%, 10rem);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem 0;
+    /* border-bottom: 1px solid var(--color-dom); */
+}
+
+.reservation .form-field__text {
+    padding: 0 0.5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.reservation .form-field__input {
+    padding: 0.7rem 1rem;
+    color: var(--color-dom);
+    font-size: 0.9rem;
+    background-color: transparent;
+    border-radius: 0.2rem;
+    border: 1px solid #3644;
+}
+
+.reservation .form-field__input::placeholder {
+    color: #364a;
+}
+
+.reservation .form__btn {
+    margin: auto;
+    margin-top: 3rem;
+    padding: 0.7rem 3rem;
+    min-width: 100%;
+    color: var(--color-lgh);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: var(--color-com);
+    border-radius: 0.5rem;
+    border: none;
+}

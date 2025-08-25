@@ -1,0 +1,80 @@
+.base-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    width: 100%;
+    color: var(--color-lgh);
+    background-color: #253;
+    position: absolute;
+    top: 0;
+}
+
+.firm {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.firm__logo {
+    width: 3rem;
+    height: 3rem;
+}
+
+.firm__title {
+    display: none;
+    font-size: 1.2rem;
+}
+
+.nav {
+    display: none;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav-list__link {
+    color: inherit;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.base-banner__menu-btn {
+    width: 2rem;
+    height: 2rem;
+    background-color: transparent;
+    border: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .base-banner {
+        flex-wrap: wrap;
+        padding: 1rem 2rem;
+        position: relative;
+    }
+
+    .firm {
+        flex-grow: 0;
+    }
+
+    .firm__title {
+        display: block;
+    }
+
+    .nav {
+        display: block;
+    }
+
+    .base-banner__menu-btn {
+        display: none;
+    }
+}

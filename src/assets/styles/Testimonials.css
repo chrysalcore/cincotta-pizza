@@ -1,0 +1,111 @@
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 6rem 1rem;
+    min-height: min(100dvh, 50rem);
+    color: var(--color-lgh);
+    text-align: center;
+    background: #364a;
+    position: relative;
+    overflow-x: clip;
+    z-index: 10;
+}
+
+.testimonials::before {
+    content: '';
+    width: 140vw;
+    height: 80%;
+    background-image: url('../imgs/testimonials.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 0.5rem;
+    position: absolute;
+    left: -20vw;
+    z-index: -1;
+}
+
+.testimonials-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background: linear-gradient(#364d, #364d);
+    border-radius: 0.5rem;
+    position: relative;
+    top: 4rem;
+    z-index: 15;
+}
+
+.testimonials-info .section-header {
+    align-items: center;
+    text-align: center;
+}
+
+.testimonials-info .section-header__title {
+    color: #ccc;
+}
+
+.testimonials-info .section-header__title strong {
+    color: var(--color-lgh);
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.testimonial__info {
+    font-size: 0.9rem;
+}
+
+.testimonial__name {
+    font-weight: 600;
+}
+
+.testimonial__role {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.testimonials .cta-container {
+    padding: 1rem 0;
+}
+
+.testimonials .cta {
+    color: var(--color-lgh);
+    background-color: var(--color-com);
+}
+
+@media screen and (min-width: 1024px) {
+    .testimonials {
+        flex-direction: row;
+        padding: 4rem 15vw;
+        min-height: 60dvh;
+        text-align: left;
+        background-color: #364a;
+        position: relative;
+    }
+
+    .testimonials::before {
+        width: 50dvw;
+        height: 60%;
+        left: 15dvw;
+    }
+
+    .testimonials-info .section-header {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .testimonials-info {
+        padding: 1.5rem;
+        width: 60%;
+        top: 0;
+    }
+
+    .testimonials .cta-container {
+        justify-content: flex-start;
+    }
+}

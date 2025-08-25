@@ -1,0 +1,52 @@
+.local-banner .contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--color-dom);
+    position: relative;
+    z-index: 5;
+}
+
+.local-banner .contact-link {
+    flex: 1 0 min(100%, 15rem);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.7rem 1rem;
+}
+
+.local-banner .contact-link:nth-child(even) {
+    background-color: #8884;
+}
+
+.local-banner .contact-link:nth-child(odd) {
+    background-color: transparent;
+}
+
+.local-banner .contact-link__icon {
+    padding: 0.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #f44a;
+    border-radius: 50%;
+}
+
+.local-banner .contact-link__text {
+    text-decoration: none;
+}
+
+.local-banner .contact-link__name {
+    color: var(--color-lgh);
+    font-size: 0.9rem;
+}
+
+.local-banner .contact-link__ref {
+    color: #ddd;
+    font-size: 0.7rem;
+}
+
+@media screen and (min-width: 600px) {
+    .local-banner .contact-link {
+        justify-content: center;
+    }
+}

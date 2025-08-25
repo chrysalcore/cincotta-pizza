@@ -11,7 +11,7 @@ function Testimonials() {
     ]
 
     return (
-        <section className='testimonials section'>
+        <section className='testimonials section' id='testimonials'>
             <div className='testimonials-info'>
                 <header className='section-header'>
                     <h2 className='section-header__title'>Client <strong>Feedback</strong></h2>

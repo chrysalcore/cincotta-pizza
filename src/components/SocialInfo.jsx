@@ -10,7 +10,7 @@ function SocialLink(props) {
     return (
         <li className="social-info__item">
             <a href={props.href} className="social-info__link" target="blank">
-                <img src={new URL(props.icon, import.meta.url).href} alt={`${props.name} icon`} className="social-info__icon" />
+                <img src={new URL(`../assets/icons/${props.icon}`, import.meta.url).href} alt={`${props.name} icon`} className="social-info__icon" />
             </a>
         </li>
     )

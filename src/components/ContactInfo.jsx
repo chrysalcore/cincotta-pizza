@@ -9,7 +9,7 @@ function ContactInfo(props) {
 function ContactLink(props) {
     return (
         <li className="contact-link">
-            <img src={new URL(props.icon, import.meta.url).href} alt={`${props.name} icon`} className="contact-link__icon" />
+            <img src={new URL(`../assets/icons/${props.icon}`, import.meta.url).href} alt={`${props.name} icon`} className="contact-link__icon" />
             <a href={props.href} className="contact-link__text" target="blank">
                 <h3 className="contact-link__name">{props.name}</h3>
                 <p className="contact-link__ref">{props.ref}</p>

@@ -29,23 +29,23 @@ function Footer() {
             title: 'Links',
             items: [
                 {
-                    href: '',
+                    href: '#hero',
                     text: 'Home'
                 },
                 {
-                    href: '',
+                    href: '#about',
                     text: 'About Us'
                 },
                 {
-                    href: '',
+                    href: '#dishes',
                     text: 'Best Offers'
                 },
                 {
-                    href: '',
+                    href: '#testimonials',
                     text: 'Testimonials'
                 },
                 {
-                    href: '',
+                    href: '#contact',
                     text: 'Contact'
                 }
             ]
@@ -54,22 +54,22 @@ function Footer() {
 
     const socialData = [
         {
-            icon: '../assets/icons/whatsapp.svg',
+            icon: 'whatsapp.svg',
             name: 'pinterest',
             href: ''
         },
         {
-            icon: '../assets/icons/facebook.svg',
+            icon: 'facebook.svg',
             name: 'facebook',
             href: ''
         },
         {
-            icon: '../assets/icons/instagram.svg',
+            icon: 'instagram.svg',
             name: 'instagram',
             href: ''
         },
         {
-            icon: '../assets/icons/twitter.svg',
+            icon: 'twitter.svg',
             name: 'twitter',
             href: ''
         }

@@ -2,7 +2,7 @@ import '../assets/styles/About.css'
 
 function About() {
     return (
-        <section className='about section'>
+        <section className='about section' id='about'>
             <div className='about-text'>
                 <h2 className='section-header__title'>Our <strong>Approach</strong></h2>
                 <h3 className='about__subtitle'>Beginings - 1995</h3>

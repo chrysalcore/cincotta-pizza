@@ -1,7 +1,7 @@
 function Cta(props) {
     return (
         <div className='cta-container'>
-            <button className="cta">{props.text}</button>
+            <button className="cta" onClick={props.clicked}>{props.text}</button>
         </div>
         
     )

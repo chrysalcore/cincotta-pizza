@@ -30,7 +30,7 @@ function Reservation() {
     ]
 
     return (
-        <section className='reservation'>
+        <section className='reservation' id='reservation'>
             <Form data={data} />
         </section>
     )

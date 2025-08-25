@@ -5,32 +5,37 @@ import '../assets/styles/BaseBanner.css'
 function BaseBanner() {
     const links = [
         {
-            href: '',
+            href: '#hero',
             text: 'Home'
         },
         {
-            href: '',
+            href: '#about',
             text: 'About Us'
         },
         {
-            href: '',
+            href: '#dishes',
             text: 'Best Offers'
         },
         {
-            href: '',
+            href: '#testimonials',
             text: 'Testimonials'
         },
         {
-            href: '',
+            href: '#contact',
             text: 'Contact'
         }
     ]
+
+    const clicked = () => {
+        const obj = document.getElementById('contact')
+        obj.scrollIntoView()
+    }
 
     return (
         <section className='base-banner'>
             <Firm />
             <Nav items={links}/>
-            <Cta text='Contact'/>
+            <Cta text='Contact' clicked={clicked}/>
         </section>
     )
 }

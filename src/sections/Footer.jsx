@@ -54,7 +54,7 @@ function Footer() {
 
     const socialData = [
         {
-            icon: 'whatsapp.svg',
+            icon: 'pinterest.svg',
             name: 'pinterest',
             href: ''
         },

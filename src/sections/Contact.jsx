@@ -32,7 +32,7 @@ function Contact() {
 
     const socialData = [
         {
-            icon: 'whatsapp.svg',
+            icon: 'pinterest.svg',
             name: 'pinterest',
             href: ''
         },

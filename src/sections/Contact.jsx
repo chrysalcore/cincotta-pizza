@@ -13,13 +13,13 @@ function Contact() {
         {
             icon: 'gmail.svg',
             name: 'Email',
-            ref: 'contact@gmail.com',
+            ref: 'contact@chrysalcore.com',
             href: ''
         },
         {
             icon: 'location.svg',
             name: 'Address',
-            ref: 'Industry #71, Camaguey, Cuba',
+            ref: 'Industria #71, Camaguey, Cuba',
             href: ''
         },
         {

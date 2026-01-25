@@ -21,7 +21,7 @@ function Footer() {
                 },
                 {
                     href: '',
-                    text: 'contact@gmail.com'
+                    text: 'contact@chrysalcore.com'
                 }
             ]
         },
@@ -80,14 +80,14 @@ function Footer() {
             <div className='footer-content'>
                 <div className='footer-firm'>
                     <img className='firm__logo' src={new URL('../assets/icons/cheff.svg', import.meta.url).href} alt='main icon' />
-                    <h2 className='firm__title'>Houselife</h2>
+                    <h2 className='firm__title'>Cincotta Pizza</h2>
                 </div>
                 {infoData.map(item => <FooterInfo title={item.title} items={item.items} key={item.title} />)}
             </div>
             <SocialInfo data={socialData} />
             <div className='footer-rights'>
                 <small className='footer-rights__item'>&copy;All rights reserved 2025</small>
-                <small className='footer-rights__item'>Powered by <a href="" target='blank'>Chrysal Core</a></small>
+                <small className='footer-rights__item'>Powered by <a href="https://chrysalcore.com" target='blank'>Chrysal Core</a></small>
             </div>
         </footer>
     )

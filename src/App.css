@@ -17,6 +17,7 @@
 .section-header__title {
     font-size: 2.2rem;
     text-transform: capitalize;
+    text-wrap: balance;
 }
 
 .section-header__title strong {

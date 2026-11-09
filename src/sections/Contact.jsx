@@ -56,7 +56,7 @@ function Contact() {
     return (
         <section className='contact' id='contact'>
             <header className='section-header'>
-                <h2 className='section-header__title'>Reserv our own <strong>Table</strong></h2>
+                <h2 className='section-header__title'>Reserve your own <strong>Table</strong></h2>
                 <p className='section-header__desc'>Let's discuss how we can address your specific requirements and come here now.</p>
             </header>
             <ContactInfo list={contactData} />
